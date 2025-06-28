@@ -7,5 +7,7 @@
 # Не игнорировать папку Public
 !Public/
 
+!site/
+
 # Разрешить содержимое Public
 Public/**/*
