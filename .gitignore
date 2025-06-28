@@ -1,13 +1,15 @@
 # Игнорировать всё
 *
 
-# Кроме .gitignore самого файла
+# Но не .gitignore
 !.gitignore
 
-# Не игнорировать папку Public
-!Public/
-
+# Разрешить папку site и её содержимое
 !site/
+!site/**
 
-# Разрешить содержимое Public
-Public/**/*
+!docs/
+!docs/**
+
+!Public/
+!Public/**
